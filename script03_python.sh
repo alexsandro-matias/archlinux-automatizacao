@@ -1,0 +1,2 @@
+ython-pip
+python-setuptools
