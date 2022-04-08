@@ -1,0 +1,1 @@
+sudo pacman -Rdd --noconfirm i3 

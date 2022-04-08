@@ -1,5 +1,0 @@
-python-pip
-python-setuptools
-
-
-

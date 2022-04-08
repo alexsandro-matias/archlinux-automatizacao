@@ -1,3 +1,6 @@
+# Atualizando o Sistema Sem confirmação
+sudo pacman -Syyuu --noconfirm
+
 
 # Atualizando as chaves 
 sudo hwclock -w
@@ -7,11 +10,9 @@ sudo pacman-key --init
 sudo pacman-key --populate archlinux
 sudo pacman -Syyu archlinux-keyring
 
-# Atualizando o Sistema
+# Atualizando o Sistema Sem confirmação
 sudo pacman -Syyuu --noconfirm
 
-# Configurando Gerenciador de Sessão
-sudo systemctl enable lxdm.service 
 
 
 
