@@ -1,6 +1,6 @@
 sudo pacman -Rdd --noconfirm plasma sddm okular ark spectacle dolphin-plugins konsole kate \
-kwrite kdeplasma-applets-fokus plasma-framework  kdeplasma-applets-fokus  kded kdeclarative \
+kwrite plasma-framework  kded kdeclarative \
+kio kwallet kcompletion karchive ki18n kactivities \
+kactivities-stats 
 
-# Remoção da sessão
-sudo systemctl disable sddm
-sudo systemctl stop sddm
+sudo sh remocao_pacotes.sh
